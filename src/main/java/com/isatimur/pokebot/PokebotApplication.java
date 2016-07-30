@@ -20,7 +20,7 @@ public class PokebotApplication implements CommandLineRunner {
             telegramBotsApi.registerBot(new TelegramLongPollingBot() {
                 @Override
                 public String getBotToken() {
-                    return "155693744:AAHm5hZ-yiCBZa6TWkBrrIiH4MQdg9g5kuA";
+                    return "<Bot Token>";
                 }
 
                 @Override
